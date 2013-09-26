@@ -1,0 +1,424 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass";
+@import "compass/css3/columns";
+
+/* variables */
+
+/* GRID */
+
+$blueprint_grid_columns: 24;
+$blueprint_grid_width: 35px;
+
+@import "blueprint";
+
+section .inner{
+	@include container;
+	
+	> header{
+		@include column(24);
+	}
+	
+	article{
+		@include column(16);
+	}
+	
+	aside{
+		@include column(8, true);
+	}
+
+	footer{
+		@include column(16);
+		margin: 80px 0;
+	}
+}
+
+section.timeline .inner{
+	@include container;
+	
+	> header{
+		@include column(24);
+	}
+	
+	article{
+		@include column(12, true);
+		@include append(6);
+		@include prepend(6);
+	}
+}
+
+.column2 p{
+    @include column-count(2);
+    @include column-gap($blueprint_grid_width);
+}
+
+h2 {@include column-break-before(always);}
+
+/* ------ GRID */
+
+
+
+/* TYPE */
+
+body{
+	font:{
+		family: "futura-pt", Helvetica, sans-serif;
+		size: 18px;
+	}
+	
+	color: #fff;
+	line-height: 1.6;
+}
+
+.wrapper{
+	width: 100%;
+	position: relative;
+}
+
+h1{
+	font:{
+		size: 3em;
+		weight: 800;
+	}
+	line-height: 1.1;
+	padding-bottom: .4em;
+	margin-bottom: .4em;
+	
+	border-bottom: 2px solid #fff;
+	text-transform: uppercase;
+	
+	span{
+		font-weight: 100;
+		color: #fff;
+		font-size: .7em;
+	}
+}
+
+h2{
+	font:{
+		size: 1.2em;
+		weight: 600;
+	}
+	
+	padding-bottom: .4em;
+}
+
+p{
+	padding-bottom: .6em;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #999;
+}
+
+a:hover{
+	color: #ccc;
+}
+
+a:active{
+	color: red;
+}
+
+.center{
+	text-align: center;
+}
+
+/* ----- TYPE */
+
+
+
+
+.box-rounded{
+	border: 2px solid #fff;
+	border-radius: 12px;
+	padding: 7px;
+}
+
+
+
+body{
+	background: #000;
+}
+
+
+
+
+body .wrapper > header{
+	color: #000;
+	background: rgba(white, .9);
+	position: fixed;
+	z-index: 100;
+	padding: 10px;
+	width: 100%;
+	border-bottom: 2px solid #000;
+	
+	nav{
+		
+		@include container;
+		
+		ul{
+			
+			li{
+				
+				display: inline;
+				padding-right: .8em;
+				
+				&.divider{
+					margin: 0 .2em;
+					border-left: 1px solid #424546;
+				}
+			}
+			
+			
+			
+		}
+		
+	}
+	
+	a{
+		color: #000;
+		border-bottom: 2px solid #fff;
+		
+		padding: 0 .1em;
+		
+		&.active{
+			border-bottom: none;
+		}
+
+		&:hover{
+			background-color: rgba(black, .1);
+		}
+	}
+		
+	.brand{
+		font-weight: 600;
+		text-decoration: none;
+		font-size: 1.4em;
+		margin-right: 1.5em;
+		padding-left: 25px;
+		background:{
+			image: url(../images/misc/noun_project_2965_black.svg);
+			size: 20px;
+			repeat: no-repeat;
+			position: left center;
+		}
+		border: none;
+	}
+}
+
+
+/* sides */
+
+section{
+	
+	width: 100%;
+	
+	&.sides{
+	position: relative;
+	padding: 60px 0;
+	
+		@include background-image(	url(data:image/png;base64,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),
+									radial-gradient(100% 50%, #343236 10px, #262828));
+	
+		&:before, &:after{
+			content: '';
+			position: absolute;
+			height: 100%;
+			width: 5%;
+			max-width: 60px;
+			background: #f1f1f1;
+			top: 0;
+			left: 0;
+			right: auto;
+			border-right: 1px solid #000;
+		}
+		
+		&:after{
+			right: 0;
+			left: auto;
+			border-right: none;
+			border-left: 1px solid #000;
+		}
+		
+		&:first-of-type{
+			padding-top: 120px;
+		}
+	
+		footer{
+			@extend .box-rounded;
+			font-size: .8em;
+		}
+	}	
+}
+
+/* ---- sides */
+
+
+
+
+/* TIMELINE */
+
+$color-timeline: #4b7cd0;
+
+.timeline{
+	
+	overflow: hidden;
+	position: relative;
+	
+	.line{
+		width: 2px;
+		height: 100%;
+		background: #fff;
+		position: absolute;
+		margin-left: 220px;
+		top: 150px;
+	}
+	
+	dt{
+		background: $color-timeline;
+		display: inline-block;
+		padding: 0px 5px;
+		margin-bottom: 20px;
+		font-weight: 600;
+		text-align: center;
+		position: relative;
+		border-radius: 5px;
+		
+		&:before{
+			content: '';
+			height: 2px;
+			width: 40px;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: -50px;
+		}
+		
+	}
+	
+	dd{
+		@extend .box-rounded;
+		margin-bottom: 45px;
+	}
+	
+}
+
+
+/* ------- TIMELINE */
+
+
+
+
+
+/* THEMES */
+
+@mixin sides($pattern){
+	&:before{
+		@include background-image(linear-gradient(left, rgba(0,0,0,.3) 5%, rgba(0,0,0,.1) 10%, rgba(0,0,0,.3)), url(../images/patterns/#{$pattern}));
+	}
+	
+	&:after{
+		@include background-image(linear-gradient(right, rgba(0,0,0,.3) 5%, rgba(0,0,0,.1) 10%, rgba(0,0,0,.3)), url(../images/patterns/#{$pattern}));
+	}
+}
+
+@function readable-color($color-value: #000, $image: 'false'){
+  @if lightness($color-value) > 60% {
+ 	 @if $image == 'false' {
+	 	 @return black;  
+	 	} @else {
+	 	 @return 'black';
+	 }  
+  } @else {
+ 	 @if $image == 'false' {
+	 	 @return white;  
+	 	} @else {
+	 	 @return 'white';
+	 }  
+  }
+}
+
+
+%mood{
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background-attachment: fixed;
+}
+
+
+$nav-array: (	einleitung #fff 'retina_wood.png' '', 
+				einfluss #993e3d 'brushed.png' 'prophet_600.jpg', 
+				timeline $color-timeline 'white_leather.png' 'jx-3p.jpg', //farbe unter timeline definiert
+				technik #51bcb5 'squairy_light.png' 'TraxControls-RetroWave-04.jpg', 
+				unternehmen #4bb024 'mochaGrunge.png' 'sequential-circuits-prophet-vs.jpg', 
+				gegenwart #ffc676 'purty_wood.png' 'maschine.jpg', //NATIVE INSTRUMENTS
+				look #a537ff 'bgnoise_lg.png' 'model64.jpg', //http://retrosynthads.blogspot.de
+				quellen #40abff 'bedge_grunge.png' 'Trax-RetroWave-16.jpg', 
+				impressum #fffcfc 'subtle_surface.png' 'Trax-RetroWave-18.jpg' //http://greatsynthesizers.com
+			);
+
+@each $option in $nav-array {
+
+	body .wrapper > header.#{nth($option, 1)} {
+		
+		background: nth($option, 2);
+		background: rgba(nth($option, 2), .9);
+		
+		a{
+			color: readable-color(nth($option, 2));
+			border-color: readable-color(nth($option, 2));
+		}
+		
+		.divider{
+			border-color: readable-color(nth($option, 2));
+		}
+		
+		.brand{
+			background-image: url(../images/misc/noun_project_2965_#{readable-color(nth($option, 2), true)}.svg);
+		}		
+	}
+	
+	.sides.#{nth($option, 1)}{
+		@include sides(nth($option, 3));
+		
+		h1{
+			color: nth($option, 2);
+		}
+		
+		h2{
+			
+		}
+	}
+	
+	.mood_#{nth($option, 1)}{
+		@extend %mood;
+		background-image: url(../images/moods/#{nth($option, 4)});
+	}
+	
+}
+
+@each $option in $nav-array {
+	body .wrapper > header.einleitung {
+		nav a.#{nth($option, 1)}{
+			border-color: nth($option, 2);
+		}
+	}
+}
+
+
+
+/* --------- THEMES */
+
+
