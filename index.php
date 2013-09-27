@@ -10,7 +10,6 @@ use \Michelf\MarkdownExtra;
 
 
 # Array mit allen Seiten
-
 $content = array(	'einleitung' => 'MIDI', 
 					'einfluss' => 'Einfluss', 
 					'timeline' => 'Timeline', 
@@ -69,10 +68,6 @@ $content = array(	'einleitung' => 'MIDI',
 <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
 <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
-<!-- <script type="text/javascript" src="js/responsive-nav.min.js"></script> -->
 <script type="text/javascript" src="js/midi.js"></script>
-<script>
-/*   var nav = responsiveNav(".nav-collapse"); */
-</script>
 </body>
 </html>
