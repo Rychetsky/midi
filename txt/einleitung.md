@@ -9,5 +9,5 @@ Da sich mit Hilfe des MIDI-Standards die elektronischen Instrumente immer weiter
 </article>
 
 <aside markdown="1">
-
+![Die erste MIDI-Verbindung](images/articles/NAMM_83_MIDI_1_w350.jpg)
 </aside>

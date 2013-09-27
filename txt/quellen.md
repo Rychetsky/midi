@@ -31,8 +31,5 @@
 - Look: [retrosynthads.blogspot.de](http://retrosynthads.blogspot.de)
 - Quellen: [greatsynthesizers.com/test/trax-retrowave-r-1-von-der-modelleisenbahn-zum-synthesizer/](http://greatsynthesizers.com/test/trax-retrowave-r-1-von-der-modelleisenbahn-zum-synthesizer/)
 - Impressum: [greatsynthesizers.com/test/trax-retrowave-r-1-von-der-modelleisenbahn-zum-synthesizer/](http://greatsynthesizers.com/test/trax-retrowave-r-1-von-der-modelleisenbahn-zum-synthesizer/)
+- Texturen: [subtlepatterns.com](http://subtlepatterns.com)
 </article>
-
-<aside markdown="1">
-
-</aside>
