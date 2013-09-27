@@ -19,7 +19,8 @@ Raphael Rychetsky
 Bildstockstraße 3b  
 63075 Offenbach  
 Kontakt:  
-E-Mail: [rychetsky@me.com](mailto:rychetsky@me.com)
+E-Mail: [rychetsky@me.com](mailto:rychetsky@me.com)  
+Webseite: [raphael-rychetsky.de](http://raphael-rychetsky.de)
 
 Diese Seite entstand im Rahmen des Studiums an der SAE Frankfurt.
 </article>
