@@ -7,7 +7,7 @@
  * GitHub	https://github.com/DarioDomiDE
  */
 
-require_once('./class.customize-images.php');
+require_once('./customize-images/class.customize-images.php');
 CustomizeImages::initImage();
 
 ?>

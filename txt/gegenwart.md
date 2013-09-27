@@ -20,8 +20,12 @@ Trotz aller Probleme die Anfangs aufgetreten sind - die einfache und günstige I
 </article>
 
 <aside markdown="1">
-
+![iPad Sequenzer](images/articles/genome1_w350.jpg) Das iPad im Studio
+![modernes edrum](images/articles/272366-Edrum-left_w350.jpg) Ein modernes E-Drum
+![Konzert](images/articles/chemnitzarena-volbeat-konzert_w350.jpg) Ohne MIDI geht es nicht mehr
+![Compressorhead](images/articles/compressorhead_festival-small_w350.jpg) Compressorhead: Auch über MIDI gesteuert
 </aside>
+
 <footer markdown="1">
 Quellen: 
 [wikipedia.de](http://de.wikipedia.org/wiki/Musical_Instrument_Digital_Interface)

@@ -12,7 +12,7 @@ Name: Raphael Rychetsky
 City: Frankfurt  
 Country: Germany  
 Staffing: Chris Fischer, Manuel Mundt  
-Word Count: XXXX
+Word Count: 2758
 
 Angaben gemäß § 5 TMG:  
 Raphael Rychetsky  

@@ -24,7 +24,9 @@ Weil MIDI technisch nicht sehr aufwändig war, konnte es sich schnell in der Mus
 </article>
 
 <aside markdown="1">
-
+![JX-3P Rpckseite](images/articles/RoJX3P_BackMIDI_w350.jpg) Rückseite des Roland JX-3P
+![Roland Jupiter-6 Rückseite](images/articles/8_conn_w350.jpg) Rückseite des Roland Jupiter-6
+![Typische Anschlüsse](images/articles/Midi_ports_and_cable_w350.jpg) Typische Anschlüsse
 </aside>
 
 <footer markdown="1">

@@ -18,8 +18,7 @@ Roland stellte 1983 auf der NAMM Show den Jupiter-6 mit, der auf dieser Show auc
 
 ## Commodore 64
 Der Commodore 64 war der erste Computer, für den es Sequenzer-Programme gab. Diese konnten MIDI-Signale empfangen, abspeichern und verändern. Erstmal war es möglich, über einen Computer Synthesizer zu steuern. Mit den ersten Sequenzer-Programmen konnten professionelle Produktionen komponiert werden, die Rechenleistung des C64 reichte für das bearbeiten und spielen von MIDI-Daten vollkommen aus. Der interne Soundchip wurde dabei allerdings nicht genutzt, da der Computer nur die MIDI-Signale an die angeschlossenen Synthesizer sendete.
-Bis heute wird der C64 von Liebhabern und Musikern gerne genutzt. Bands wie Welle:Erdball oder Deine Lakaien nutzen ihn heute noch im Studio oder auf der Bühne.
-http://www.youtube.com/watch?v=63BqhISzJC8
+Bis heute wird der C64 von Liebhabern und Musikern gerne genutzt. Bands wie Welle:Erdball oder Deine Lakaien nutzen ihn heute noch im Studio oder auf der Bühne. [Ein Film dazu: youtube.com](http://www.youtube.com/watch?v=63BqhISzJC8)
 
 ## Atari ST
 Die Musikproduktion wurde durch den Atari ST nachhaltig beeinflusst. Dieser Computer war der erste, welcher standardmäßig mit einer MIDI-Schnittstelle ausgestattet war, und so die Türen für Sequenzer öffnete. Musiker und Produzenten entdeckten das Gerät schnell für sich, als Programme wie *Cubase* von Steinberg erschienen. 
@@ -27,7 +26,10 @@ Trotz der aus heutiger Sicht geringen Leistungswerte (zwischen 512 KiB und 4 MiB
 </article>
 
 <aside markdown="1">
-
+![Prophet-600](images/articles/1_prophet600_w350.jpg) Prophet-600
+![Roland Jupiter-6](images/articles/Jupiter-6_w350.jpg) Roland Jupiter-6
+![C64](images/articles/wersi_music_64_w350.jpg) Ein spezieller C64
+![Atari ST](images/articles/atari_st_w350.jpg) Atari ST mit Masterkeyboard
 </aside>
 
 

@@ -12,5 +12,5 @@ Hilfreich waren viele alte Werbeanzeigen, die auf [retrosynthads.blogspot.de](ht
 </article>
 
 <aside markdown="1">
-
+![Typische Anzeige](images/articles/roland_midifamily2_jul84key_w350.jpg) Typische Anzeige dieser Zeit
 </aside>

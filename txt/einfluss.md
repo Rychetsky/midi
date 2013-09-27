@@ -16,7 +16,8 @@ Für die Musikindustrie fing mit der Veröffentlichung ein neues Zeitalter an. V
 </article>
 
 <aside markdown="1">
-
+![Werbeanzeige von Sequential Circuits](images/articles/midi_912_3_w350.jpg) Werbeanzeige von Sequential Circuits
+![Werbeanzeige von Sequential Circuits](images/articles/sci_model64_nov83p13key_w350.jpg) Computer mit MIDI-Synthesizer
 </aside>
 
 <footer markdown="1">
