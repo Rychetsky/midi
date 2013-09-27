@@ -150,7 +150,9 @@ body{
 }
 
 
-
+.footnote-backref{
+	display: none;
+}
 
 body .wrapper > header{
 	color: #000;
@@ -170,12 +172,7 @@ body .wrapper > header{
 			li{
 				
 				display: inline;
-				padding-right: .8em;
-				
-				&.divider{
-					margin: 0 .2em;
-					border-left: 1px solid #424546;
-				}
+				padding-right: .8em;				
 			}
 			
 			
@@ -199,7 +196,7 @@ body .wrapper > header{
 		}
 	}
 		
-	.brand{
+	.einleitung{
 		font-weight: 600;
 		text-decoration: none;
 		font-size: 1.4em;
@@ -385,7 +382,7 @@ $nav-array: (	einleitung #fff 'retina_wood.png' '',
 			border-color: readable-color(nth($option, 2));
 		}
 		
-		.brand{
+		.einleitung{
 			background-image: url(../images/misc/noun_project_2965_#{readable-color(nth($option, 2), true)}.svg);
 		}		
 	}
@@ -417,6 +414,9 @@ $nav-array: (	einleitung #fff 'retina_wood.png' '',
 	}
 }
 
+.mood_einleitung{
+	display: none;
+}
 
 
 /* --------- THEMES */
