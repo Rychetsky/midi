@@ -4,11 +4,6 @@ $(document).ready(function(){
 		duration:1000,
 		hash:true
 	});
-		
-	$('header:first').addClass($('header nav li:nth-child(2) a').attr('class'));
-
-	$('header nav li:nth-child(2) a').addClass('active');
-	
 	
 	var waitForFinalEvent = (function () {
 	  var timers = {};
@@ -24,26 +19,20 @@ $(document).ready(function(){
 	})();
 	
 	
+	// Initiale Naviklassen vergeben	
+	$('header:first').addClass($('header nav li:first-child a').attr('class'));
+	$('header nav li:first-child a').addClass('active');
+
 	$(window).scroll(function () {
 			var inviewid = $("section:in-viewport:first").attr('id');
-		   
+			
+			// Beim scrollen die sichtbare Klasse der Navigation geben
 		    waitForFinalEvent(function(){
 				$('header:first').removeClass().addClass(inviewid);
 				$('header nav a').removeClass('active');
 				$('header nav a.'+ inviewid).addClass('active');
 				
 		    }, 50, "asideWidth");
-
-
-
-/*
-	  var inview = '#' + $('.sectionSelector:in-viewport:first').parent().attr('id'),
-	      $link = $('.mainNav li a').filter('[hash=' + inview + ']');
-	  if ($link.length && !$link.is('.active')) {
-	    $('.mainNav li a').removeClass('active');
-	    $link.addClass('active');    
-	  }
-*/
 	});	
 	
 	

@@ -27,11 +27,11 @@ $content = array(	'einleitung' => 'MIDI',
 <html lang="de">
 <head>
 	<meta charset="UTF-8" />
-	<title>MIDI</title>
-	
-	<link rel="stylesheet" href="stylesheets/screen.css" />
-<!-- 	<link rel="stylesheet" href="stylesheets/responsive-nav.css"> -->
+	<title>MIDI | Raphael Rychetsky</title>
+	<meta name="description" content="Webseite über MIDI im Rahmen des History-Unterrichts an der SAE Frankfurt">
+	<meta name="author" content="Raphael Rychetsky">
 	<meta name="viewport" content="width=1300,maximum-scale=1.0" />
+	<link rel="stylesheet" href="stylesheets/screen.css" />
 	
 </head>
 <body>
@@ -40,7 +40,7 @@ $content = array(	'einleitung' => 'MIDI',
 	
 	<header>
 		
-		<nav class="nav-collapse">
+		<nav>
 			<ul>
 				<?php # Menü zusammenbauen
 				foreach ($content as $key => $value)
@@ -69,5 +69,19 @@ $content = array(	'einleitung' => 'MIDI',
 <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
 <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
 <script type="text/javascript" src="js/midi.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9333390-12']);
+  _gaq.push(['_setDomainName', 'raphael-rychetsky.de']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
