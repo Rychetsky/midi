@@ -3,10 +3,11 @@
 </header>
 
 <article markdown="1">
-MIDI veränderte Anfang der 1980er Jahre die Musik-Landschaft. Mit dem Musical Instrument Digital Interface wurde ein Austausch von Informationen zwischen Keyboards, Synthesizern und anderen elektronischen Musikinstrumenten möglich. Erstmals gezeigt wurde eine MIDI-Verbindung auf der NAMM-Show 1983 mit dem SEQUENTIAL CIRCUITS PROPHET-600 und dem Roland Jupiter-6. Von da an verbreitete sich der MIDI-Standard immer mehr, und bot Musikern und Musikproduzenten viele neue Möglichkeiten. Es konnten mit einem Keyboard mehrere Klangerzeuger gleichzeitig angesteuert werden, neuartige Instrumente und Controller erschienen, und natürlich wurde der weg frei für digitale Sequenzer.[^midi.org]
+MIDI veränderte Anfang der 1980er Jahre die Musik-Landschaft grundlegend. Mit dem so genannten Musical Instrument Digital Interface wurde ein Austausch von Steuerungs-Informationen zwischen Keyboards, Synthesizern und anderen elektronischen Musikinstrumenten möglich. Erstmals gezeigt wurde eine MIDI-Verbindung auf der NAMM-Show 1983 mit dem Sequential Circuits Prophet-600 und dem Roland Jupiter-6. Von da an verbreitete sich der MIDI-Standard immer weiter und bot Musikern, Musikproduzenten und Instrumenten-Herstellern viele neue Möglichkeiten. 
+Erstmals konnten mit einem Keyboard mehrere Klangerzeuger gleichzeitig angesteuert werden, neuartige Instrumente und Controller erschienen und natürlich wurde der Weg für digitale Sequenzer frei.
+Da sich mit Hilfe des MIDI-Standards die elektronischen Instrumente immer weiter durchsetzen konnten, veränderte sich in den 1980er Jahren die Musik. Auch die Verbreitung von Heim-Computern tat ihr übrigens, da es dank der MIDI-Verbindung möglich wurde, die Instrumente mit dem Computer zu steuern. Es entstanden neuartige Musikrichtungen, die so vorher nicht möglich gewesen wären.
 </article>
+
 <aside markdown="1">
 
 </aside>
-
-[^midi.org]: midi.org, 1986

@@ -61,12 +61,6 @@ $content = array(	'einleitung' => 'MIDI',
 	}
 	?>
 
-			
-		
-			
-		
-
-
 </div>	
 
 <script type="text/javascript" src="//use.typekit.net/ubp0ppq.js"></script>

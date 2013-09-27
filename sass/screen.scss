@@ -25,6 +25,11 @@ section .inner{
 	
 	article{
 		@include column(16);
+		
+		&.column3{
+			@include column(24, true);
+		}
+		
 	}
 	
 	aside{
@@ -32,7 +37,8 @@ section .inner{
 	}
 
 	footer{
-		@include column(16);
+		float: none;
+		clear: both;
 		margin: 80px 0;
 	}
 }
@@ -111,13 +117,9 @@ p{
 	padding-bottom: .6em;
 }
 
-a{
+a, a:visited{
 	color: #fff;
-	text-decoration: none;
-}
-
-a:visited{
-	color: #999;
+	text-decoration: underline;
 }
 
 a:hover{
@@ -172,7 +174,11 @@ body .wrapper > header{
 			li{
 				
 				display: inline;
-				padding-right: .8em;				
+				padding-right: .8em;	
+				
+				.look{
+					margin-left: 2em;
+				}			
 			}
 			
 			
@@ -184,7 +190,7 @@ body .wrapper > header{
 	a{
 		color: #000;
 		border-bottom: 2px solid #fff;
-		
+		text-decoration: none;
 		padding: 0 .1em;
 		
 		&.active{
@@ -331,15 +337,15 @@ $color-timeline: #4b7cd0;
 @function readable-color($color-value: #000, $image: 'false'){
   @if lightness($color-value) > 60% {
  	 @if $image == 'false' {
-	 	 @return black;  
+	 	 @return black;  // Gibt FARBE aus
 	 	} @else {
-	 	 @return 'black';
+	 	 @return 'black'; // Gibt STRING aus
 	 }  
   } @else {
  	 @if $image == 'false' {
-	 	 @return white;  
+	 	 @return white;  // Gibt FARBE aus
 	 	} @else {
-	 	 @return 'white';
+	 	 @return 'white'; // Gibt STRING aus
 	 }  
   }
 }
@@ -360,10 +366,10 @@ $nav-array: (	einleitung #fff 'retina_wood.png' '',
 				timeline $color-timeline 'white_leather.png' 'jx-3p.jpg', //farbe unter timeline definiert
 				technik #51bcb5 'squairy_light.png' 'TraxControls-RetroWave-04.jpg', 
 				unternehmen #4bb024 'mochaGrunge.png' 'sequential-circuits-prophet-vs.jpg', 
-				gegenwart #ffc676 'purty_wood.png' 'maschine.jpg', //NATIVE INSTRUMENTS
-				look #a537ff 'bgnoise_lg.png' 'model64.jpg', //http://retrosynthads.blogspot.de
+				gegenwart #ffc676 'purty_wood.png' 'maschine.jpg',
+				look #a537ff 'bgnoise_lg.png' 'model64.jpg', 
 				quellen #40abff 'bedge_grunge.png' 'Trax-RetroWave-16.jpg', 
-				impressum #fffcfc 'subtle_surface.png' 'Trax-RetroWave-18.jpg' //http://greatsynthesizers.com
+				impressum #fffcfc 'subtle_surface.png' 'Trax-RetroWave-18.jpg' 
 			);
 
 @each $option in $nav-array {
